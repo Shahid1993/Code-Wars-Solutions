@@ -15,7 +15,7 @@ public class NewAverage {
         if (no < 0)
             throw new IllegalArgumentException("Sum negative");
         else
-            return (long)no;
+            return (long) Math.ceil(no);
 
     }
 }
