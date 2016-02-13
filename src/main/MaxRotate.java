@@ -23,6 +23,9 @@ public class MaxRotate {
     }
 
     public static String shift(String string, int shift) {
+        if (string.length() == 1)
+            return string;
+
         StringBuilder rotate = new StringBuilder();
         int i = shift;
         do {
