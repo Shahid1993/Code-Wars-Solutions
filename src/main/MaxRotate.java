@@ -8,13 +8,14 @@ public class MaxRotate {
     public static long maxRot(long n) {
         String number = Long.toString(n);
         int length = number.length();
-        int count = 1;
-        Long max = 0l;
+        int count = 0;
+        Long max = n;
 
         while (count < length) {
             String subString = number.substring(count, length);
             subString = shift(subString, 1);
-            Long rotatedNum = Long.parseLong(subString);
+            number = number.substring(0,count) + subString;
+            Long rotatedNum = Long.parseLong(number);
             if (rotatedNum > max)
                 max = rotatedNum;
             count++;
