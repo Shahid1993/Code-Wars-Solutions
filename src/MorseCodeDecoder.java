@@ -1,7 +1,11 @@
+import java.util.Map;
+
 /**
  * Created by ajinkya on 13/03/16.
  */
 public class MorseCodeDecoder {
+    private static Map<Object,Object> MorseCode;
+
     public static String decode(String morseCode) {
         String line = "";
         String tmp = "";
