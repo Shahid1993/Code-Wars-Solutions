@@ -1,9 +1,6 @@
-package test;
-
 /**
  * Created by ajinkya on 22/2/16.
  */
-import main.Pipes;
 import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 

@@ -1,6 +1,3 @@
-package test;
-
-import main.NewAverage;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

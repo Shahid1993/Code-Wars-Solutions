@@ -1,9 +1,6 @@
-package test;
-
 /**
  * Created by ajinkya on 13/03/16.
  */
-import main.MorseCodeDecoder;
 import org.junit.Test;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;

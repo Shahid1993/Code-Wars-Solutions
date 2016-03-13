@@ -1,11 +1,8 @@
-package test;
-
 /**
  * Created by ajinkya on 22/2/16.
  */
 import static org.junit.Assert.*;
 
-import main.Money;
 import org.junit.Test;
 
 public class MoneyTest {

@@ -1,5 +1,3 @@
-package main;
-
 /**
  * Created by ajinkya on 13/2/16.
  * ( sum + i ) / (length +1 ) = navg;

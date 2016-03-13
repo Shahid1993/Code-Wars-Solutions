@@ -1,10 +1,7 @@
-package test;
-
 /**
  * Created by ajinkya on 13/2/16.
  */
 
-import main.MaxRotate;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
