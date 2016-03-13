@@ -4,6 +4,9 @@
 public class TriangleNumbers {
 
     public static Boolean isTriangleNumber(long number) {
-
+        long root = (long) Math.sqrt(number);
+        if (root * (root + 1) / 2 == number)
+            return true;
+        else return false;
     }
 }
