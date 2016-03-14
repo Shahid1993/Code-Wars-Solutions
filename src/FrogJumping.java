@@ -6,10 +6,9 @@ public class FrogJumping {
         for (i = 0; i < a.length; ) {
             i = i + a[i];
             count++;
+            if (i == a.length - 1)
+                return count + 1;
         }
-        if (i == a.length - 1)
-            return count + 1;
-        else
-            return -1;
+        return -1;
     }
 }
