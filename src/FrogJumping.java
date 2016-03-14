@@ -6,7 +6,7 @@ public class FrogJumping {
         for (i = 0; i < a.length; ) {
             i = i + a[i];
             count++;
-            if (i == a.length - 1 & a[i] > 0)
+            if (i == a.length - 1 & a[i] > 0 || i >= a.length)
                 return count + 1;
         }
         return -1;
