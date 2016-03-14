@@ -7,15 +7,19 @@ public class FrogJumping {
         int nextIndex = 0;
         int count = 0;
         ArrayList<Integer> visitedNodes = new ArrayList<Integer>();
-        while (true) {
-            nextIndex = currentIndex + a[currentIndex];
-            count++;
-            if (nextIndex < 0 || nextIndex > a.length - 1)
-                return count;
-            if (visitedNodes.contains(nextIndex))
-                return -1;
-            currentIndex = nextIndex;
-            visitedNodes.add(currentIndex);
+        try {
+            while (true) {
+                nextIndex = currentIndex + a[currentIndex];
+                count++;
+                if (nextIndex < 0 || nextIndex > a.length - 1)
+                    return count;
+                if (visitedNodes.contains(nextIndex))
+                    return -1;
+                currentIndex = nextIndex;
+                visitedNodes.add(currentIndex);
+            }
+        } catch (ArrayIndexOutOfBoundsException e) {
+            return -1;
         }
     }
 }
