@@ -6,7 +6,7 @@ public class CircleSorted {
         int breakIndex = 0;
         while (i < a.length - 1) {
             if (a[i] > a[i + 1]) {
-                breakIndex = i;
+                breakIndex = i + 1;
                 break;
             }
             i++;
