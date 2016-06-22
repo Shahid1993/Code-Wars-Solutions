@@ -7,5 +7,6 @@ public class Consecutives {
 
     public static List<Integer> sumConsecutives(List<Integer> s) {
         // your code
+        return null;
     }
 }
