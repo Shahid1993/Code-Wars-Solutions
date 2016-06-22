@@ -8,9 +8,9 @@
  */
 public class FibonacciLastDigit {
     public static int getFibNumb(int n) {
-        int first = 1, second = 0;
+        int first = 1, second = 1;
         int next = 0;
-        for (int i = 1; i < n; i++) {
+        for (int i = 2; i < n; i++) {
             next = second + first;
             first = second % 10;
             second = next % 10;
